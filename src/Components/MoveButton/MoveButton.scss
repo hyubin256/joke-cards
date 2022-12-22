@@ -1,0 +1,30 @@
+.previous-button,.next-button{
+    width: 120px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+
+    align-items: center;
+    border: 1px solid var(--white-three);
+    cursor: pointer;
+    img{
+        width: 8px;
+        height: 16px;
+    }
+    .text{
+        color: var(--main-yellow); 
+        font-size: 16px;
+        margin-left: 10px;       
+    }
+}
+.next-button{
+    flex-direction: row-reverse;
+    margin-left: 20px;
+    img{
+        transform: rotate(180deg);
+    }
+    .text{
+        margin-left: 0px;
+        margin-right: 10px;    
+    }
+}

@@ -1,0 +1,30 @@
+
+.like-button,.dislike-button{
+    width: 40px;
+    height: 40px;    
+    display: flex;
+    justify-content: center;
+
+    align-items: center;
+    border-radius: 50%;
+    transition: background-color 0.25s linear;
+    cursor: pointer;
+    img{
+        width: 25px;
+        height: 25px;
+    }    
+    
+}
+.like-button{
+    background-color: rgb(124, 180, 133);
+    margin-right: 20px;
+    &:hover{
+        background-color: rgb(90, 143, 98);
+    }
+}
+.dislike-button{
+    background-color: rgb(235, 75, 86);
+    &:hover{
+        background-color: rgb(191, 60, 69);
+    } 
+}

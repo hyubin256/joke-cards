@@ -1,0 +1,48 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Montserrat';
+  box-sizing: border-box;
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+  
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat';  
+}
+.container{
+    width: 100%;
+    max-width: 1320px;
+    margin-right: auto;
+    margin-left: auto;
+    @media screen and (max-width: 1400px) and (min-width: 1200px) {
+        max-width: 1140px;
+    }   
+    @media screen and (max-width: 1200px) and (min-width: 992px) {
+        max-width: 960px;
+    }
+    @media screen and (max-width: 992px) and (min-width: 768px) {
+        max-width: 720px;
+    }    
+    @media screen and (max-width: 768px) and (min-width: 576px) {
+        max-width: 540px;
+    }    
+    @media screen and (max-width: 576px) {
+        max-width: 100%;
+        padding: 0 10px;
+    }    
+}
